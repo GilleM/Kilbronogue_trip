@@ -28,8 +28,9 @@ body {
 
 .navbar-light .navbar-nav .nav-link.active {
     border-bottom: 1px solid white;
-    color: white;
+    color: var(--dark); 
 }
+
 
 .navbar-light .navbar-nav .nav-link {
     color: #DC3545;
@@ -150,6 +151,15 @@ nav a {
     padding-top: 15px;
 }
 
+.activity-container ul li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-left: 5px;
+    list-style: none;
+    color: blue;
+}
+
+
 .activity-container .activity-picture {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -213,7 +223,42 @@ footer {
     font-size: 17px;
 }
 
+/* ------------------------------------GALLERY-------------------------------- */
 
+
+.heading-gallery-container {
+    margin: 30px 50px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.holder-container {
+    margin: 30px 100px;
+    background: #f1fffe;
+    height: 380px;
+    overflow-x: scroll;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+.btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
 
 #myBtn {

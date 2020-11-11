@@ -1,45 +1,85 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Kilbronogue trip
 
-Welcome GilleM,
+Welcome to my first milestone project from Code Institute that you can check out by the click on the photo below:
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+[![Foo](assets/images/readme_photo.JPG)](https://gillem.github.io/???????????/)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Project Description
+***
+The choice of the first milestone's subject took me a lot of time; I spent hours trying to figure out what 
+would make me happy to write about, about what subject I have enough materials (information and photos),
+and finally, what skeleton will my project have in order to represent the best my intentions - to demonstrate
+my time in Kilbronogue, in West Cork, where I spent lovely several months of my life.
 
-A blue button should appear to click: *Make Public*,
+The audience I chose are my friends, family and people interested in this, slightly funny subject. 
 
-Another blue button should appear to click: *Open Browser*.
+##  UX
+***
+According to [interaction design page](https://www.interaction-design.org/literature/topics/ux-design), user 
+experience (UX) design is _"the process design teams use to create products that provide meaningful and relevant 
+experiences to users. This involves the design of the entire process of acquiring and integrating the product, 
+including aspects of branding, design, usability and function."_
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+I wanted to make my project useful, usable and valuable.
 
-A blue button should appear to click: *Make Public*,
 
-Another blue button should appear to click: *Open Browser*.
+Five pillars of my project plan went like this:
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+1.	The **strategy plane**: My aim was to make a memory of my Kilbronogue trip in the first place, for me and for my friend closely related to that place.
+2.	The **scope plane**: The features I decided to include, based on information from the strategy plane, is 
+    to represent myself firstly and name the activites we did, to do a gallery page just with the picture, as well as
+    accommodation page where I could represent the house (info's are invented) in order to practice forms and bullets.
+    It was the first time I included a map.
+3.	The **structure plane**: The information is structured in three pages each one having the same navigation link but 
+    different footer. 
+    * First page - index.html (Home) is quite basic, with jumbotron and and quote, followed by information
+    about me and some activites photos and paragraph.
+    * Second page - gallery.html (Gallery) is a page I'm really happy how it looks like. I borrowed the link from a page 
+    (everything will be stated below) and I changed the design. I colored it differently, and I introduced overflow-x: scroll;
+    to make it look better.
+    * Third page - accommodation.html (Accommodation) in composed in more divs. First is the picture of the house followed
+    by quote. There is a name etimology table. Form pushed left and map pushed right are included in the latest div. 
+    I decided to change the footer so I could introduce accommodation address and provide links. 
+4.	The **skeleton plane**: I tried my best to nicely arrange and visual present the elements. The user can navigate 
+    to the information and the features quite easily. In order to know how well constructed my information 
+    architecture is and also the arrangement of our features, I created mock-ups using [Balsamiq](https://balsamiq.com/?gclid=CjwKCAiA4o79BRBvEiwAjteoYP-BL8x2zPrc_Xa7JT-E3IZN4kkktcwmJJhUxVjhi-rTzlgNLc4jvxoCWOoQAvD_BwE).
+5.	The **surface plane**: I decided to use mostly greyish and white colours with some dark red and beige.
+    I tried to follow this decicion throughout all the pages. I really liked _Amatic SC, cursive_ font which I combined
+    with _Playfair Display_ font.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Wireframe
+***
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+First page - index.html (Home) wireframe
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Image](images/wireframe_1.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+Second page - gallery.html (Gallery) wireframe
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Image](images/wireframe_2.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Third page - accommodation.html (Accommodation) wireframe **still in process**
 
---------
 
-Happy coding!
+
+
+
+## Technology used
+***
+
+Thos project was written in **HTML5**, **CSS3** and **Bootstrap** using the caracteristics like [Google fonts](https://fonts.google.com/), [Font Awesome](https://fontawesome.com/)
+
+I did everything using **Github** and its **Gitpod editor**.
+
+When doing my web page, I consulted the following web pages/link:
+- [Bootsnip](https://bootsnipp.com/snippets/P2gor) that helped me to develop my gallery.html page
+- [Online PNG tools](https://onlinepngtools.com/create-transparent-png) to make transparent the background of the divider
+- [Norwegian photo](https://www.lifeinnorway.net/norwegian-mythology-folk-tales/) for the photo of norwegian flag I used in index.html page
+- [Divider photo](https://www.freepik.com/vectors/background) - Background vector created by rawpixel.com - www.freepik.com **IN PROCESS**
+
+
