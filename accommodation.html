@@ -40,47 +40,174 @@
 
 
 
+<!------------------------------------------------------------------------------- Accommodation intro section -->
+
+ <section id="main-accommodation-container">
+        <div class="container">
+            <div class="row justify-content-center row align-items-center accommodation-container">
+                <div class="col-12">
+                    <h2 class="heading-accommodation-container">"Gort na Gaoithe" house</h2>
+                </div>
+                <div class="col-12 divider">
+                    <img class="img-fluid" src="assets/images/divider.png" alt="Divider">
+                </div>
+                <div class="col-md-3">
+                    <img class="home-picture img-fluid" src="assets/images/home.jpg" alt="Kilbronogue house">
+                </div>
+                <div class="col-md-7">
+                    <p class="paragraph-accommodation-container"> “My home is rooms and walls like any other, beds, 
+                    tables and chairs, yet it is only the love there that matters. The walls are the colours of 
+                    the ocean and sand, somewhere I adore. The walls are smiles and cheekiness, decorated with 
+                    the pictures of the people who hold my heart. While we dwell here this home is so much more 
+                    than the sum of its parts and for that I have love to thank, the glue of my existence.”
+                    <footer class="blockquote-footer">Angela Abraham, <cite title="https://www.descriptionari.com/quotes/home/">@daisydescriptionari</cite></footer>
+                </div>
+            </div>
+        </div>
+    </section>    
 
 
+<!------------------------------------------------------------------------------- Table -->
+ <div class="row justify-content-center row align-items-center main-accommodation-table">
+    <div class="col-12 divider">
+        <img class="img-fluid" src="assets/images/divider.png" alt="Divider">
+    </div>
+    <div class="col-md-7 accommodation-table">
+        <table class="table table-sm">
+        <caption> For more information about placenames<a href="https://www.geographyinaction.co.uk/Text_based_site/Placenames/pnamesmeaning.html" target="_blank"> click here </a></caption>
+            <thead>
+                <tr>
+                <th scope="col"></th>
+                <th scope="col">Anglicised form</th>
+                <th scope="col">Meaning</th>
+                <th scope="col">Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Gort</th>
+                    <td>Gort, gart</td>
+                    <td>Enclosed field</td>
+                    <td>Gortnamony (<em>Gort na Mónadh</em> - enclosed field of the bog)</td>
+                </tr>
+                <tr>
+                    <th scope="row">-na-</th>
+                    <td>-na-</td>
+                    <td>of the</td>
+                    <td>Culnafay (<em>Cuíl na Bheithe</em> - corner of the birch)</td>
+                </tr>
+                <tr>
+                    <th scope="row">Gaoithe</th>
+                    <td>Gee</td>
+                    <td>Wind</td>
+                    <td>Drumnagee (<em>Droim na Gaoith</em> - ridge of the wind)</td>
+                </tr>
+                <tr>
+                    <th scope="row" class="border-tr">Cill</th>
+                    <td class="border-tr">Kill</td>
+                    <td class="border-tr">Church</td>
+                    <td class="border-tr">Kilminioge (<em>Cill M'Fhionnóg</em> - Little Finn's Church)</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+ </div>
 
-<!--------------------------------------------------- Footer -->
+<!------------------------------------------------------------------------------- Form and map -->
+<section id="hotel-info">
+    <div class="container hotel-container">
+        <div class="row justify-content-between">
+            <div class="col-md-6 float-left hotel-container-left">
+                <h2 class="heading-hotel-container"> Please, leave your personal details: </h2>
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputName">Name</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="ex Tom, Clara...">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputLastname">Last name</label>
+                            <input type="text" class="form-control" id="inputLastname" placeholder="ex Pitt, Cordon...">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="inputEmail4">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress2">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-5">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-3">
+                            <label for="inputCountry">Country</label>
+                            <input type="text" class="form-control" id="inputCountry" placeholder="Country">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputZip">Zip</label>
+                            <input type="text" class="form-control" id="inputZip">
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-outline-light hotel-button">Submit</button>
+                </form>
+                </div>
+            
+            <div class="col-md-5 float-right hotel-container-right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19855.69539415808!2d-9.509179567319539!3d51.53225819689638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484598c1e58226e5%3A0x23495f0c3cb45a2d!2sKilbronoge%2C%20Kilbronogue%2C%20Co.%20Cork!5e0!3m2!1sen!2sie!4v1604456713867!5m2!1sen!2sie" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+</section>    
+
+<!------------------------------------------------------------------------------- Footer -->
 
 <footer class="container-fluid footer-container">
     <div class="row justify-content-center align-items-left">
         <div class="col-sm-12">
             <ul class="list-inline social-links">
                 <li class="list-inline-item">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.facebook.com/SchullInPhotos">
                         <i class="fa fa-facebook" aria-hidden="true"></i>
                         <span class="sr-only">Facebook</span>
                     </a>
                 </li>
                     <li class="list-inline-item">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://twitter.com/hashtag/schull?lang=en">
                         <i class="fa fa-twitter" aria-hidden="true"></i>
                         <span class="sr-only">Twitter</span>
                     </a>
                 </li>
                             <li class="list-inline-item">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://ie.linkedin.com/">
                         <i class="fa fa-linkedin" aria-hidden="true"></i>
                         <span class="sr-only">LinkedIn</span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.pinterest.com/search/pins/?q=west%20cork&rs=typed&term_meta[]=west%7Ctyped&term_meta[]=cork%7Ctyped">
                         <i class="fa fa-pinterest" aria-hidden="true"></i>
                         <span class="sr-only">Pinterest</span>
                     </a>
                 </li>
                     <li class="list-inline-item">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.instagram.com/">
                         <i class="fa fa-instagram" aria-hidden="true"></i>
                         <span class="sr-only">Instagram</span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a target="_blank" href="#">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=0DK-GoVkRjw">
                         <i class="fa fa-youtube" aria-hidden="true"></i>
                         <span class="sr-only">YouTube</span>
                     </a>
