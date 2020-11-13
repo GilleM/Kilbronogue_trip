@@ -119,7 +119,9 @@ nav a {
     padding: 5px;
 }
 
-
+.introduction_paragraph {
+        font-size: 30px;
+}
 
 
 /* ----------------------------------------- Activity container */
@@ -139,9 +141,7 @@ nav a {
     padding: 20px;
     border: 6px solid #ddd;
     border-radius: 4px;
-    /* margin-top: 50px;
-    margin-bottom: 50px; */
-    width: 80%;
+    width: 85%;
 }
 
 .activity-container h2 {
@@ -176,7 +176,7 @@ nav a {
 .activity-list > * {
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
@@ -470,28 +470,37 @@ blockquote p {
 /* ------------------------MEDIA QUERIES----------------- */
 
 /* Large devices (desktops, 992px and up) */
-@media (max-width: 1200px) and (min-width: 992px){      
+@media (max-width: 1200px) and (min-width: 992px){   
+
+
+
     /* ----------------------- Accommodation --- */ 
     .paragraph-accommodation-container {
     font-size: 25px;
     }
 }
 
+
+
+
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 991px) and (min-width: 768px) {
 
     /* ----------------------- Navbar --- */
     .navbar-nav .nav-link {
-        margin: 2px 2px;
-        margin-left: 25px;
+        margin: 2px 2px 2px 25px;
     }
     .nav-link {
         padding: .3rem;
     }
     /* ----------------------- Home --- */
+    .introduction_paragraph {
+        font-size: 25px;
+    }
     .activity-container {
         width: 90%;
     }
+    
     /* ----------------------- Gallery --- */
     .holder-container {
         margin: 0px;
@@ -504,16 +513,287 @@ blockquote p {
     }
     /* ------------------------ Accommodation --- */ 
     .paragraph-accommodation-container {
-    font-size: 22px;
+        font-size: 22px;
+    }
+
+    .accommodation-table {
+        font-size: 12px;
+        padding: 5px;
     }
     .west-cork-text-paragraph {
-    font-size: 14px;
+        font-size: 14px;
+    }
+
+    .west-cork-text-image {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .the-book-button-div {
+        margin-top: 15px;
+        font-size: 17px;
+    }
+    .the-book-button {
+        margin-top: 15px;
+        font-size: 17px;
+    }
+    #form-map-main-container {
+        padding: 0px;
+    }
+    .justify-content-between {
+        justify-content: center !important;
+    }
+
 }
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 767px) and (min-width: 576px){
 
+      /* ----------------------- Navbar --- */
+    .navbar-nav .nav-link {
+        margin: 5px 10px;
+    }
+
+    .nav-link {
+        padding: 0;
+    }
+    nav a {
+        font-size: 1.1em;
+    }
+
+    /* ----------------------- Home --- */
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .introduction-heading {
+        text-align: center;
+    }
+
+    .introduction_paragraph {
+        font-size: 22px;
+        text-align: center;
+    }
+    .activity-container {
+        width: 90%;
+    }
+    .activity-container p {
+        font-size: 14px;
+    }
+
+
+    .activity-list > *:hover {
+        transform: none;
+    }
+    /* ----------------------- Gallery --- */
+    .holder-container {
+        margin: 0px;
+        width: 100%;
+    }
+    .food-container {
+        margin: 0px;
+        margin-bottom: 80px;
+        width: 100%;
+    }
+
+    .gallery-separator {
+    margin-top: 4rem;
+    margin-bottom: 0.6rem;
+    }
+
+
+ /* ------------------------ Accommodation --- */ 
+   
+    .paragraph-accommodation-container {
+        font-size: 28px;
+    }
+
+    .accommodation-table {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .west-cork-text-paragraph {
+        font-size: 14px;
+    }
+    .west-cork-text-image {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .the-book-button-div {
+        font-size: 17px;
+    }
+    .the-book-button {
+        font-size: 17px;
+    }
+    #form-map-main-container {
+        padding: 0px;
+    }
+    .justify-content-between {
+        justify-content: center !important;
+    }
+
+    .divider-accommodation-container {
+    padding-top: 1rem;
+    }
+    .the-book-button {
+        margin-top: 15px;
+    }
+    .heading-form-map-container {
+    font-size: 35px;
+    }
+
+    /* ----------------------- Footer --- */
+    .copyright-text {
+        padding-bottom: 10px;
+    }
+
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575px) 
+@media (max-width: 575px) {
+
+    body {
+        line-height: 1.3;
+    }
+
+    /* ----------------------- Navbar --- */
+    .Kilbronogue_picture_container {
+        text-align: center;
+    }
+
+    .navbar_picture {
+    width: 45%;
+    padding-top: 10px;
+    }
+
+    button.navbar-toggler {
+        position: absolute;
+        top: 18px;
+        left: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 10px;
+    }
+    .nav-link {
+        padding: 0;
+    }
+    nav a {
+        font-size: 0.9em;
+    }
+
+    /* ----------------------- Home --- */
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .introduction-heading {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+    .introduction-paragraph {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .divider {
+        margin-top: 20px;
+        margin-bottom: 25px; 
+    }
+
+  
+    .activity-list > *:hover {
+    transform: none;
+    }
+
+ /* ----------------------- Gallery --- */
+    .holder-container {
+        margin: 0px;
+        width: 100%;
+    }
+    .food-container {
+        margin: 0px;
+        margin-bottom: 80px;
+        width: 100%;
+    }
+
+    .gallery-separator {
+        margin-top: 4rem;
+        margin-bottom: 0.6rem;
+    }
+
+ /* ----------------------- Accommodation --- */
+
+    .paragraph-accommodation-container {
+        font-size: 25px;
+    }
+
+    .accommodation-table {
+        display: none;
+    }
+
+    .west-cork-main-container {
+        padding-bottom: 1rem;
+    }
+
+    .west-cork-text-paragraph {
+        padding-top: 0;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .west-cork-text-image {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+    .the-book-button-div {
+        font-size: 17px;
+    }
+    .the-book-button {
+        font-size: 17px;
+    }
+    #form-map-main-container {
+        background-color: white;
+        padding: 0px;
+    }
+    .heading-form-map-container {
+        font-size: 30px;
+    }
+    .map_divider {
+        display: none;
+    }
+  
+    .divider-accommodation-container {
+        padding-top: 1rem;
+    }
+    .the-book-button {
+        margin-top: 25px;
+    }
+
+    /* .separator_1 {
+        display: none;
+    } */
+
+
+ /* ----------------------- Footer --- */
+    .social-links li a i {
+        font-size: 1.4rem;
+        padding: 5px;
+    }
+    .copyright-text {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+}
+
+
+
+
