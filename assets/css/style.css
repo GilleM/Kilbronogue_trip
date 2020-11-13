@@ -98,6 +98,13 @@ nav a {
     width: 30%;
 }
 
+.separator_1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 20%;
+}
+
+
 
 /* ----------------------------------------- Introduction container */
 .introduction-container {
@@ -299,9 +306,42 @@ footer {
 
 /* --------------------------Accommodation container-------------------------------- */
 #main-accommodation-container {
-    background-color: #7fff0057;
+    height: 100vh;
+    background: url("../images/home.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
 
+.west-cork-main-container {
+    padding-bottom: 3rem;
+}
+.west-cork-text-paragraph {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    text-align: justify;
+    padding-top: 15px;
+}
+
+.the-book-button-div {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.the-book-button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
 .accommodation-container {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -313,43 +353,52 @@ footer {
     text-align: center;
     letter-spacing: 2px;
     font-size: 40px;
+    color: white;
 }
 
 .paragraph-accommodation-container {
-    font-size: 25px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: #1c1919bf;
 }
-.main-accommodation-table {
+
+.divider-accommodation-container {
     background-color: white;
     padding-top: 2rem;
+
     
 }
 .accommodation-table {
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 5%;
-
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     text-align: center;
     padding-top: 15px;
-    background-color: var(--light);
+    background-color: #e4e0f9ba;
 }
 
 /* --------------------------Hotel container-------------------------------- */
-#hotel-info {
-    background-color: #474d52;
+#form-map-main-container {
+    background-color: #020b13;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.form-map-container {
     padding-top: 2rem;
     padding-bottom: 2rem;
 
 }
-.heading-hotel-container {
+.heading-form-map-container {
     margin-bottom: 50px;
     text-align: center;
     letter-spacing: 2px;
     font-size: 41px;
 }
 
-.hotel-container-left {
+.form-map-container-left {
     margin-bottom: 10px;
     margin-top: 10px;
     padding: 2rem;
@@ -361,7 +410,7 @@ footer {
     border: 1px solid #a49292;
 }
 
-.hotel-container-right {
+.form-map-container-right {
     margin-bottom: 10px;
     margin-top: 10px;
     padding: 50px;
@@ -386,3 +435,85 @@ iframe {
     height: 450px
 }
 
+
+.blockquote-footer-accommodation {
+    display: block;
+    font-size: 80%;
+    color: white;
+    /* color: #6c757d; */
+    background: none;
+    margin-top: 0px;
+}
+
+/* ----Blockquote----------------- */
+blockquote {
+  background: #e4e0f9ba;
+    border-left: 5px solid #7e72e6c2;
+    margin: 1.5em 10px;
+    padding: 1em 0.7em;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+
+
+/* ------------------------MEDIA QUERIES----------------- */
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 1200px) and (min-width: 992px){      
+    /* ----------------------- Accommodation --- */ 
+    .paragraph-accommodation-container {
+    font-size: 25px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991px) and (min-width: 768px) {
+
+    /* ----------------------- Navbar --- */
+    .navbar-nav .nav-link {
+        margin: 2px 2px;
+        margin-left: 25px;
+    }
+    .nav-link {
+        padding: .3rem;
+    }
+    /* ----------------------- Home --- */
+    .activity-container {
+        width: 90%;
+    }
+    /* ----------------------- Gallery --- */
+    .holder-container {
+        margin: 0px;
+        width: 100%;
+    }
+    .food-container {
+        margin: 0px;
+        margin-bottom: 80px;
+        width: 100%;
+    }
+    /* ------------------------ Accommodation --- */ 
+    .paragraph-accommodation-container {
+    font-size: 22px;
+    }
+    .west-cork-text-paragraph {
+    font-size: 14px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767px) and (min-width: 576px){
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) 
