@@ -49,7 +49,7 @@ nav a {
 /* ----------------------------------------- Jumbotron container */
 
 .main-jumbo-container {
-    height: 90vh;
+    height: 100vh;
     background: url("../images/background_picture.jpg") no-repeat top center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -79,7 +79,7 @@ nav a {
 }
 
 .jumbotron-header {
-    font-size: xxx-large;
+    font-size: 50px;
 }
 
 .jumbotron-paragraph {
@@ -147,8 +147,7 @@ nav a {
 .activity-container h2 {
     color: #DC3545;
     text-align: center;
-    font-size: 30px;
-    font-weight: 7px;
+    font-size: 35px;
 }
 
 .activity-container p {
@@ -242,7 +241,7 @@ footer {
 .holder-container {
     margin: 30px 100px;
     background: #f1fffe;
-    height: 380px;
+    height: 410px;
     overflow-x: scroll;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -252,10 +251,11 @@ footer {
     margin: 30px 100px;
     margin-bottom: 100px;
     background: #faf5bf;
-    height: 380px;
+    height: 410px;
     overflow-x: scroll;
     padding-top: 30px;
     padding-bottom: 30px;
+
 }
 
 .gallery-separator {
@@ -277,6 +277,10 @@ footer {
 .thumb{
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.modal-footer .btn:hover {
+     background-color: #cecece;
 }
 
 #myBtn {
@@ -432,22 +436,22 @@ footer {
 iframe {
     float: left;
     width: 100%;
-    height: 450px
-}
+    height: 450px;
+    border: 0;
+    }
 
 
 .blockquote-footer-accommodation {
     display: block;
     font-size: 80%;
     color: white;
-    /* color: #6c757d; */
     background: none;
     margin-top: 0px;
 }
 
 /* ----Blockquote----------------- */
 blockquote {
-  background: #e4e0f9ba;
+    background: #e4e0f9ba;
     border-left: 5px solid #7e72e6c2;
     margin: 1.5em 10px;
     padding: 1em 0.7em;
@@ -591,6 +595,7 @@ blockquote p {
     .holder-container {
         margin: 0px;
         width: 100%;
+        height: 410px;
     }
     .food-container {
         margin: 0px;
@@ -637,9 +642,12 @@ blockquote p {
 
     .divider-accommodation-container {
     padding-top: 1rem;
+    margin-left: 0;
+    margin-right: 0;   
+
     }
     .the-book-button {
-        margin-top: 15px;
+        margin-top: 25px;
     }
     .heading-form-map-container {
     font-size: 35px;
@@ -660,20 +668,23 @@ blockquote p {
     }
 
     /* ----------------------- Navbar --- */
+    
     .Kilbronogue_picture_container {
         text-align: center;
     }
 
     .navbar_picture {
-    width: 45%;
-    padding-top: 10px;
+        width: 45%;
+        padding-top: 10px;
     }
 
     button.navbar-toggler {
         position: absolute;
-        top: 18px;
+        top: 15px;
         left: 10px;
     }
+
+
 
     .navbar-nav .nav-link {
         margin-left: 10px;
@@ -685,19 +696,27 @@ blockquote p {
         font-size: 0.9em;
     }
 
+    /* .nav-item {
+        margin-top: 50px;
+    } */
+
     /* ----------------------- Home --- */
+
+     #main-accommodation-container {
+        height: 110vh;
+    }
     p {
         margin-top: 0;
         margin-bottom: 0;
     }
-    .introduction-heading {
+    .introduction_heading {
         margin-top: 1rem;
         margin-bottom: 1rem;
         text-align: center;
         font-size: 2.2rem;
     }
 
-    .introduction-paragraph {
+    .introduction_paragraph {
         margin-top: 1rem;
         margin-bottom: 1rem;
         text-align: center;
@@ -731,12 +750,26 @@ blockquote p {
 
  /* ----------------------- Accommodation --- */
 
+    #main-accommodation-container {
+        height: 110vh;
+    }
+
+    .heading-accommodation-container {
+    font-size: 33px;
+    margin-bottom: 25px;
+    }
+
     .paragraph-accommodation-container {
         font-size: 25px;
     }
 
+    .blockquote-footer-accommodation {
+        font-size: 70%;
+        margin-top: 20px;
+    }
+
     .accommodation-table {
-        display: none;
+        font-size: 12px;
     }
 
     .west-cork-main-container {
@@ -792,6 +825,9 @@ blockquote p {
         padding-bottom: 20px;
         text-align: center;
     }
+
+  
+
 }
 
 
