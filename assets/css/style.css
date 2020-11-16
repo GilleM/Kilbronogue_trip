@@ -471,6 +471,31 @@ blockquote p {
 
 
 
+
+
+.wireframe{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ------------------------MEDIA QUERIES----------------- */
 
 /* Large devices (desktops, 992px and up) */
@@ -825,8 +850,6 @@ blockquote p {
         padding-bottom: 20px;
         text-align: center;
     }
-
-  
 
 }
 

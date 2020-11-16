@@ -106,12 +106,11 @@ attract people in coming to Ireland and visit West Cork.
 
 ### Skeleton
 #### Wireframe
-[LARGE SIZE wireframe](https://gillem.github.io/Kilbronogue_trip/assets/wireframes/Wireframe-large-screen.html)
+[LARGE SIZE wireframe](https://gillem.github.io/Kilbronogue_trip/assets/wireframes/Wireframe_large_screen.html)
 
-[MEDIUM SIZE wireframe](still_in_progress) is still in progress
+[MEDIUM SIZE wireframe](https://gillem.github.io/Kilbronogue_trip/assets/wireframes/Wireframe_medium_screen.html)
 
-[EXTRA-SMALL wireframe](still_in_progress) is still in progress
-
+[EXTRA-SMALL wireframe](https://gillem.github.io/Kilbronogue_trip/assets/wireframes/Wireframe_extra_small_screen.html)
 
 ### Surface
 
