@@ -1,19 +1,30 @@
 # Kilbronogue trip
 
-Welcome to my first milestone project from Code Institute that you can check out by the click on the photo below:
+**Code Institute - Milestone Project for User-Centric Frontend Development**
 
-[![Foo](assets/images/readme_photo.JPG)](https://gillem.github.io/???????????/)
+[View webpage in GitHub Pages](https://github.com/GilleM/Kilbronogue_trip)
+
+Welcome to my first Code Institute milestone project that you can check out by the click on the photo below:
+
+[![Foo](assets/images/readme_photo.JPG)](https://gillem.github.io/Kilbronogue_trip/)
 
 
 
 ## Project Description
 ***
-The choice of the first milestone's subject took me a lot of time; I spent hours trying to figure out what 
-would make me happy to write about, about what subject I have enough materials (information and photos),
-and finally, what skeleton will my project have in order to represent the best my intentions - to demonstrate
-my time in Kilbronogue, in West Cork, where I spent lovely several months of my life.
+Kilbronogue trip is the project I took as the first out of four Milestone Projects at The Code Institute 
+Full Stack Developer course.
+the main requirements were to make a responsive and static website with a minimum
+of 3 pages using HTML5 and CSS3, along with any other technologies you would like to use.
 
-The audience I chose are my friends, family and people interested in this, slightly funny subject. 
+The choice of the first milestone's subject took me a lot of time.  I spent hours trying to figure out what 
+would make me happy to write about, subject I have enough materials (information and photos) about,
+and finally, the overall structure what my project will have in order to represent the best my intentions - to demonstrate
+my time in Kilbronogue, in West Cork, where I spent lovely several months of my life during lock-down.
+
+The audience I chose are my friends, family and people interested in West Cork and travels. 
+
+
 
 ##  UX
 ***
@@ -23,6 +34,8 @@ experiences to users. This involves the design of the entire process of acquirin
 including aspects of branding, design, usability and function."_
 
 I wanted to make my project useful, usable and valuable.
+
+
 
 
 Five pillars of my project plan went like this:
@@ -54,17 +67,11 @@ Five pillars of my project plan went like this:
 ## Wireframe
 ***
 
-First page - index.html (Home) wireframe
 
-![Image](images/wireframe_1.png)
+[LARGE SIZE WIREFRAME for all pages](assets/documents/readme.html)
 
-
-Second page - gallery.html (Gallery) wireframe
-
-![Image](images/wireframe_2.png)
-
-Third page - accommodation.html (Accommodation) wireframe **still in process**
-
+[MEDIUM SIZE WIREFRAME for all pages]
+[EXTRA-SMALL SIZE WIREFRAME for all pages]  
 
 
 
