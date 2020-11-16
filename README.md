@@ -68,7 +68,7 @@ Five pillars of my project plan went like this:
 ***
 
 
-[LARGE SIZE WIREFRAME for all pages](assets/documents/readme.html)
+[LARGE SIZE WIREFRAME for all pages](readme.html)
 
 [MEDIUM SIZE WIREFRAME for all pages]
 [EXTRA-SMALL SIZE WIREFRAME for all pages]  
