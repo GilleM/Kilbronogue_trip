@@ -470,14 +470,24 @@ blockquote p {
 }
 
 
+/* ----Wireframe----------------- */
+.wireframe-background {
+background-color: #e0dfdf;
+}
 
-
-
-.wireframe{
+.wireframe {
+    margin-left: 15%;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
+.wireframe-main-heading {
+    padding-top: 20px;
+
+}
+.wireframe-heading {
+    text-align: center;
+}
 
 
 
