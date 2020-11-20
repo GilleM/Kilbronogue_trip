@@ -5,7 +5,6 @@ body {
 }
 
 /* ------------------------------------------------Navbar */
-
 .navbar {
     position: relative;
     width: 100%;
@@ -43,11 +42,11 @@ body {
 
 nav a {
     font-size: 1.2em;
-  
 }
 
-/* ----------------------------------------- Jumbotron container */
+/* ------------------------------------HOME---------------------------------- */
 
+/* ----------------------------------------- Jumbotron container */
 .main-jumbo-container {
     height: 100vh;
     background: url("../images/background_picture.jpg") no-repeat top center fixed; 
@@ -87,9 +86,7 @@ nav a {
 }
 
 
-
 /* ------------------------ Separator */
-
 .separator {
     margin-top: 3rem;
     margin-bottom: 0.5rem;
@@ -103,7 +100,6 @@ nav a {
     margin-bottom: 2rem;
     width: 20%;
 }
-
 
 
 /* ----------------------------------------- Introduction container */
@@ -124,7 +120,8 @@ nav a {
 }
 
 
-/* ----------------------------------------- Activity container */
+/* ------------Activity container---------------- */
+
 .main-activity-container {
     background-color: #404952;
     -webkit-background-size: cover;
@@ -133,7 +130,6 @@ nav a {
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
-
 }
 
 .activity-container {
@@ -165,7 +161,6 @@ nav a {
     color: blue;
 }
 
-
 .activity-container .activity-picture {
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -194,44 +189,8 @@ nav a {
     border: none;
 }
 
-/* ----------------------------------------- Footer */
-
-footer {
-    background-color: #440208;
-    color: white;
-    min-height: 50px;
-    margin: 0;
-    text-align: center;
-    font-size: 15px;
-    padding-top: 20px;
-}
-
-.blockquote-footer {
-    background: none;
-    margin-top: 0px;
-}
-
-.social-links li a i {
-    font-size: 2rem;
-    color: white;
-    padding: 12px;
-    transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-}
-
-.social-links li a i:hover {
-    color: rgb(211, 133, 133);
-}
-
-.copyright-text {
-    font-size: 17px;
-}
 
 /* ------------------------------------GALLERY-------------------------------- */
-
-
 .heading-gallery-container {
     margin: 30px 50px;
     text-align: center;
@@ -284,31 +243,31 @@ footer {
 }
 
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
     height: 40px;
     width: 40px;
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
+    border: none; 
+    outline: none; 
     background: rgba(51,51,51,.8) url(//media.nomadicmatt.com/siteimages/cd-top-arrow.svg) no-repeat center 50%;
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 30px; /* Increase font size */
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 30px; 
 }
 
 #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: #555; 
 }
 
 
-/* ------------------------------------ACCOMMODATION-------------------------------- */
+/* ------------------------------ACCOMMODATION----------------------------- */
 
-/* --------------------------Accommodation container-------------------------------- */
+/* -------Accommodation container----------- */
 #main-accommodation-container {
     height: 100vh;
     background: url("../images/home.jpg") no-repeat center center fixed; 
@@ -327,11 +286,24 @@ footer {
 .west-cork-main-container {
     padding-bottom: 3rem;
 }
-.west-cork-text-paragraph {
+
+.west-cork-text {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
     text-align: justify;
     padding-top: 15px;
+}
+
+.butter-road-picture {
+    margin-top: 25px;
+}
+
+figcaption {
+    background-color: #020b13;
+    color: white;
+    padding: 2px !important;
+    margin-bottom: 25px !important;
+    text-align: center !important;
 }
 
 .the-book-button-div {
@@ -346,6 +318,7 @@ footer {
     font-size: 20px;
     text-align: center;
 }
+
 .accommodation-container {
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -370,9 +343,8 @@ footer {
 .divider-accommodation-container {
     background-color: white;
     padding-top: 2rem;
-
-    
 }
+
 .accommodation-table {
     margin-left: 10%;
     margin-right: 10%;
@@ -384,6 +356,8 @@ footer {
 }
 
 /* --------------------------Hotel container-------------------------------- */
+
+/* --Form-- */
 #form-map-main-container {
     background-color: #020b13;
     padding-top: 2rem;
@@ -433,13 +407,48 @@ footer {
     font-size: 26px;
 }
 
+/*  ------------------------------FOOTER-----------------------------------  */
+footer {
+    background-color: #440208;
+    color: white;
+    min-height: 50px;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.blockquote-footer {
+    background: none;
+    margin-top: 0px;
+}
+
+.social-links li a i {
+    font-size: 2rem;
+    color: white;
+    padding: 12px;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: rgb(211, 133, 133);
+}
+
+.copyright-text {
+    font-size: 17px;
+}
+
+/* --Map-- */
+
 iframe {
     float: left;
     width: 100%;
     height: 450px;
     border: 0;
     }
-
 
 .blockquote-footer-accommodation {
     display: block;
@@ -457,6 +466,7 @@ blockquote {
     padding: 1em 0.7em;
     quotes: "\201C""\201D""\2018""\2019";
 }
+
 blockquote:before {
   color: #ccc;
   content: open-quote;
@@ -465,6 +475,7 @@ blockquote:before {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
+
 blockquote p {
   display: inline;
 }
@@ -479,30 +490,19 @@ background-color: #e0dfdf;
     margin-left: 15%;
     padding-top: 40px;
     padding-bottom: 40px;
-}
-
-.wireframe-main-heading {
-    padding-top: 20px;
-
-}
-.wireframe-heading {
     text-align: center;
 }
 
+.wireframe-main-heading {
+    text-align: center;
+    padding-top: 20px;
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.wireframe-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 
 
@@ -511,15 +511,11 @@ background-color: #e0dfdf;
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 1200px) and (min-width: 992px){   
 
-
-
     /* ----------------------- Accommodation --- */ 
     .paragraph-accommodation-container {
     font-size: 25px;
     }
 }
-
-
 
 
 /* Medium devices (tablets, 768px and up) */
@@ -529,13 +525,16 @@ background-color: #e0dfdf;
     .navbar-nav .nav-link {
         margin: 2px 2px 2px 25px;
     }
+
     .nav-link {
         padding: .3rem;
     }
+
     /* ----------------------- Home --- */
     .introduction_paragraph {
         font-size: 25px;
     }
+
     .activity-container {
         width: 90%;
     }
@@ -545,11 +544,13 @@ background-color: #e0dfdf;
         margin: 0px;
         width: 100%;
     }
+
     .food-container {
         margin: 0px;
         margin-bottom: 80px;
         width: 100%;
     }
+
     /* ------------------------ Accommodation --- */ 
     .paragraph-accommodation-container {
         font-size: 22px;
@@ -559,11 +560,11 @@ background-color: #e0dfdf;
         font-size: 12px;
         padding: 5px;
     }
-    .west-cork-text-paragraph {
+    .west-cork-text {
         font-size: 14px;
     }
 
-    .west-cork-text-image {
+    .west-cork-image {
         margin-top: 15px;
         margin-bottom: 15px;
     }
@@ -572,13 +573,16 @@ background-color: #e0dfdf;
         margin-top: 15px;
         font-size: 17px;
     }
+
     .the-book-button {
         margin-top: 15px;
         font-size: 17px;
     }
+
     #form-map-main-container {
         padding: 0px;
     }
+
     .justify-content-between {
         justify-content: center !important;
     }
@@ -597,6 +601,7 @@ background-color: #e0dfdf;
     .nav-link {
         padding: 0;
     }
+
     nav a {
         font-size: 1.1em;
     }
@@ -615,23 +620,26 @@ background-color: #e0dfdf;
         font-size: 22px;
         text-align: center;
     }
+
     .activity-container {
         width: 90%;
     }
+
     .activity-container p {
         font-size: 14px;
     }
 
-
     .activity-list > *:hover {
         transform: none;
     }
+
     /* ----------------------- Gallery --- */
     .holder-container {
         margin: 0px;
         width: 100%;
         height: 410px;
     }
+
     .food-container {
         margin: 0px;
         margin-bottom: 80px;
@@ -655,22 +663,27 @@ background-color: #e0dfdf;
         padding: 5px;
     }
 
-    .west-cork-text-paragraph {
+    .west-cork-text {
         font-size: 14px;
     }
-    .west-cork-text-image {
+
+    .west-cork-image {
         margin-top: 25px;
         margin-bottom: 25px;
     }
+
     .the-book-button-div {
         font-size: 17px;
     }
+
     .the-book-button {
         font-size: 17px;
     }
+
     #form-map-main-container {
         padding: 0px;
     }
+
     .justify-content-between {
         justify-content: center !important;
     }
@@ -679,11 +692,12 @@ background-color: #e0dfdf;
     padding-top: 1rem;
     margin-left: 0;
     margin-right: 0;   
-
     }
+
     .the-book-button {
         margin-top: 25px;
     }
+
     .heading-form-map-container {
     font-size: 35px;
     }
@@ -719,8 +733,6 @@ background-color: #e0dfdf;
         left: 10px;
     }
 
-
-
     .navbar-nav .nav-link {
         margin-left: 10px;
     }
@@ -730,10 +742,6 @@ background-color: #e0dfdf;
     nav a {
         font-size: 0.9em;
     }
-
-    /* .nav-item {
-        margin-top: 50px;
-    } */
 
     /* ----------------------- Home --- */
 
@@ -811,13 +819,13 @@ background-color: #e0dfdf;
         padding-bottom: 1rem;
     }
 
-    .west-cork-text-paragraph {
+    .west-cork-text {
         padding-top: 0;
         font-size: 14px;
         text-align: justify;
     }
 
-    .west-cork-text-image {
+    .west-cork-image {
         margin-top: 25px;
         margin-bottom: 25px;
     }
@@ -845,10 +853,6 @@ background-color: #e0dfdf;
     .the-book-button {
         margin-top: 25px;
     }
-
-    /* .separator_1 {
-        display: none;
-    } */
 
 
  /* ----------------------- Footer --- */
